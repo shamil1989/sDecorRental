@@ -4,157 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>S Decor Rental - Flower Decor Rental Services</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Basic styling */
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-        }
-
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-
-        header {
-            background: #4CAF50;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-        }
-
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
-        }
-
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        .hero {
-            background: #e2e2e2;
-            color: #333;
-            padding: 20px 0;
-            text-align: center;
-        }
-
-        .hero h2 {
-            margin-bottom: 10px;
-        }
-
-        .btn {
-            background: #4CAF50;
-            color: #fff;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-
-        .btn:hover {
-            background: #45a049;
-        }
-
-        section {
-            padding: 20px 0;
-        }
-
-        section h2 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        .service-item {
-            margin-bottom: 20px;
-        }
-
-        .service-item h3 {
-            margin-bottom: 10px;
-        }
-
-        footer {
-            background: #333;
-            color: #fff;
-            padding: 10px 0;
-            text-align: center;
-        }
-    </style>
 </head>
-<body>
-    <header>
-        <div class="container">
+<body style="
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background: url('photos\your-background-photo.jpg.jpg') no-repeat right top;
+    background-size: cover;
+">
+    <header style="
+        background: rgba(76, 175, 80, 0.8); /* Semi-transparent background */
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+    ">
+        <div style="width: 80%; margin: auto; overflow: hidden;">
             <h1>S Decor Rental</h1>
             <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                <ul style="
+                    list-style: none;
+                    padding: 0;
+                ">
+                    <li style="
+                        display: inline;
+                        margin: 0 15px;
+                    "><a href="#home" style="
+                        color: #fff;
+                        text-decoration: none;
+                    ">Home</a></li>
+                    <li style="
+                        display: inline;
+                        margin: 0 15px;
+                    "><a href="#services" style="
+                        color: #fff;
+                        text-decoration: none;
+                    ">Services</a></li>
+                    <li style="
+                        display: inline;
+                        margin: 0 15px;
+                    "><a href="#about" style="
+                        color: #fff;
+                        text-decoration: none;
+                    ">About Us</a></li>
+                    <li style="
+                        display: inline;
+                        margin: 0 15px;
+                    "><a href="#contact" style="
+                        color: #fff;
+                        text-decoration: none;
+                    ">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section id="home" class="hero">
-        <div class="container">
+    <section id="home" style="
+        background: rgba(226, 226, 226, 0.8); /* Semi-transparent background */
+        color: #333;
+        padding: 20px 0;
+        text-align: center;
+    ">
+        <div style="width: 80%; margin: auto; overflow: hidden;">
             <h2>Elegant Flower Decor Rentals for Every Occasion</h2>
             <p>Transform your events with our exquisite flower arrangements and decor rentals.</p>
-            <a href="#services" class="btn">Explore Our Services</a>
+            <a href="#services" style="
+                background: #4CAF50;
+                color: #fff;
+                padding: 10px 20px;
+                text-decoration: none;
+                border-radius: 5px;
+            ">Explore Our Services</a>
         </div>
     </section>
 
-    <section id="services">
-        <div class="container">
-            <h2>Our Services</h2>
-            <div class="service-item">
-                <h3>Wedding Flower Arrangements</h3>
-                <p>Beautiful floral designs to make your special day unforgettable.</p>
-            </div>
-            <div class="service-item">
-                <h3>Event Decor Rentals</h3>
-                <p>Elegant flower decorations for corporate events, parties, and more.</p>
-            </div>
-            <div class="service-item">
-                <h3>Custom Floral Designs</h3>
-                <p>Tailor-made floral arrangements to match your unique style and theme.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="about">
-        <div class="container">
-            <h2>About Us</h2>
-            <p>S Decor Rental specializes in providing top-quality flower decor rentals for all occasions. With a passion for floral design and a commitment to excellence, we ensure that each event is adorned with beauty and elegance.</p>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <p>Email: sdecorrental@gmail.com</p>
-            <p>Phone: (713) 823-1303</p>
-            <p>Address: Kingwood TX 77339</p>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
+    <footer style="
+        background: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+    ">
+        <div style="width: 80%; margin: auto; overflow: hidden;">
             <p>&copy; 2024 S Decor Rental. All rights reserved.</p>
         </div>
     </footer>
